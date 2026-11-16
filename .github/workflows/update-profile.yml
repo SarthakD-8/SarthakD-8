@@ -1,0 +1,109 @@
+
+name: Update GitHub Profile
+
+on:
+  schedule:
+    # Run every day at 00:00 UTC
+    - cron: "0 0 * * *"
+
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+    paths:
+      - "README.md"
+      - "scripts/**"
+      - ".github/workflows/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-github-profile
+  cancel-in-progress: false
+
+jobs:
+  update-profile:
+    name: Regenerate profile assets
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # 2. Set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # 3. Install dependencies for contribution fetching
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      # 4. Fetch GitHub contribution data
+      - name: Fetch contributions
+        env:
+          GH_PROFILE_USER: SarthakD-8
+        run: |
+          python scripts/fetch_contributions.py
+
+      # 5. Generate animated hero
+      - name: Generate hero SVG
+        run: |
+          python scripts/render_hero_svg.py
+
+      # 6. Generate contribution heatmap
+      - name: Generate contribution heatmap
+        run: |
+          python scripts/render_heatmap_svg.py
+
+      # 7. Generate dynamic project cards
+      - name: Generate project cards
+        run: |
+          python scripts/render_readme_cards.py
+
+      # 8. Validate generated SVG files
+      - name: Validate SVG files
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+
+          files = [
+              Path("assets/hero.svg"),
+              Path("assets/ascii-portrait.svg"),
+              Path("assets/contribution-heatmap.svg"),
+              Path("assets/project-cards.svg"),
+          ]
+
+          for file in files:
+              if not file.exists():
+                  raise FileNotFoundError(f"Missing SVG: {file}")
+
+              ET.parse(file)
+              print(f"VALID: {file}")
+
+          print("All SVG files passed XML validation.")
+          PY
+
+      # 9. Commit generated changes
+      - name: Commit generated assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/*.svg data/contributions.json
+
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+          else
+            git commit -m "chore: update dynamic profile assets"
+            git push
+          fi
