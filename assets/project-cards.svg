@@ -3,7 +3,7 @@
 <text x="20" y="30" fill="#e6edf3" font-size="16" font-weight="600">FEATURED REPOSITORIES</text>
 <text x="878" y="30" text-anchor="end" fill="#8b949e" font-size="11">6 PROJECTS · SarthakD-8</text>
 
-    <a href="https://github.com/SarthakD-8/Git-profile-deployer"
+    <a href="https://github.com/SarthakD-8/SarthakD-8"
        target="_blank">
       <rect x="20" y="68" width="420"
             height="154" rx="10"
@@ -11,16 +11,16 @@
 
       <text x="40" y="101"
             fill="#58a6ff" font-size="16"
-            font-weight="600">Git-profile-deployer</text>
+            font-weight="600">SarthakD-8</text>
 
       <text x="40" y="136" fill="#8b949e" font-size="12">No description provided.</text>
 
       <circle cx="45" cy="192"
-              r="5" fill="#3178c6"/>
+              r="5" fill="#3572A5"/>
 
       <text x="57" y="196"
             fill="#8b949e" font-size="11">
-        TypeScript
+        Python
       </text>
 
       <text x="280" y="196"
@@ -30,7 +30,7 @@
     </a>
     
 
-    <a href="https://github.com/SarthakD-8/dashboard-trial"
+    <a href="https://github.com/SarthakD-8/Git-profile-deployer"
        target="_blank">
       <rect x="458" y="68" width="420"
             height="154" rx="10"
@@ -38,16 +38,16 @@
 
       <text x="478" y="101"
             fill="#58a6ff" font-size="16"
-            font-weight="600">dashboard-trial</text>
+            font-weight="600">Git-profile-deployer</text>
 
       <text x="478" y="136" fill="#8b949e" font-size="12">No description provided.</text>
 
       <circle cx="483" cy="192"
-              r="5" fill="#3572A5"/>
+              r="5" fill="#3178c6"/>
 
       <text x="495" y="196"
             fill="#8b949e" font-size="11">
-        Python
+        TypeScript
       </text>
 
       <text x="718" y="196"
@@ -57,7 +57,7 @@
     </a>
     
 
-    <a href="https://github.com/SarthakD-8/mlflow-ab-testing"
+    <a href="https://github.com/SarthakD-8/dashboard-trial"
        target="_blank">
       <rect x="20" y="240" width="420"
             height="154" rx="10"
@@ -65,7 +65,7 @@
 
       <text x="40" y="273"
             fill="#58a6ff" font-size="16"
-            font-weight="600">mlflow-ab-testing</text>
+            font-weight="600">dashboard-trial</text>
 
       <text x="40" y="308" fill="#8b949e" font-size="12">No description provided.</text>
 
@@ -84,7 +84,7 @@
     </a>
     
 
-    <a href="https://github.com/SarthakD-8/GoCache"
+    <a href="https://github.com/SarthakD-8/mlflow-ab-testing"
        target="_blank">
       <rect x="458" y="240" width="420"
             height="154" rx="10"
@@ -92,16 +92,16 @@
 
       <text x="478" y="273"
             fill="#58a6ff" font-size="16"
-            font-weight="600">GoCache</text>
+            font-weight="600">mlflow-ab-testing</text>
 
       <text x="478" y="308" fill="#8b949e" font-size="12">No description provided.</text>
 
       <circle cx="483" cy="364"
-              r="5" fill="#00ADD8"/>
+              r="5" fill="#3572A5"/>
 
       <text x="495" y="368"
             fill="#8b949e" font-size="11">
-        Go
+        Python
       </text>
 
       <text x="718" y="368"
@@ -111,7 +111,7 @@
     </a>
     
 
-    <a href="https://github.com/SarthakD-8/SafeVision"
+    <a href="https://github.com/SarthakD-8/GoCache"
        target="_blank">
       <rect x="20" y="412" width="420"
             height="154" rx="10"
@@ -119,16 +119,16 @@
 
       <text x="40" y="445"
             fill="#58a6ff" font-size="16"
-            font-weight="600">SafeVision</text>
+            font-weight="600">GoCache</text>
 
       <text x="40" y="480" fill="#8b949e" font-size="12">No description provided.</text>
 
       <circle cx="45" cy="536"
-              r="5" fill="#3572A5"/>
+              r="5" fill="#00ADD8"/>
 
       <text x="57" y="540"
             fill="#8b949e" font-size="11">
-        Python
+        Go
       </text>
 
       <text x="280" y="540"
@@ -138,7 +138,7 @@
     </a>
     
 
-    <a href="https://github.com/SarthakD-8/Simple-fintech-backend"
+    <a href="https://github.com/SarthakD-8/SafeVision"
        target="_blank">
       <rect x="458" y="412" width="420"
             height="154" rx="10"
@@ -146,7 +146,7 @@
 
       <text x="478" y="445"
             fill="#58a6ff" font-size="16"
-            font-weight="600">Simple-fintech-backend</text>
+            font-weight="600">SafeVision</text>
 
       <text x="478" y="480" fill="#8b949e" font-size="12">No description provided.</text>
 
