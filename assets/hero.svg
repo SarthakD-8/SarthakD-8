@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="880"
+    height="360"
+    viewBox="0 0 880 360"
+    role="img"
+    aria-label="Sarthak Dongare, AI &amp; DATA SCIENCE ENGINEER"
+>
+
+<title>Sarthak Dongare — Developer Profile</title>
+
+<style>
+
+    @keyframes fadeUp {
+        from {
+            opacity: 0;
+            transform: translateY(18px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes portraitIn {
+        from {
+            opacity: 0;
+            transform: translateY(5px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes pulse {
+        0%, 100% {
+            opacity: 1;
+        }
+        50% {
+            opacity: .35;
+        }
+    }
+
+    .intro {
+        opacity: 0;
+        animation: fadeUp .75s ease-out forwards;
+    }
+
+    .portrait-row {
+        opacity: 0;
+        animation: portraitIn .35s ease-out forwards;
+    }
+
+    .status {
+        animation: pulse 1.8s ease-in-out infinite;
+    }
+
+    .name {
+        font-family: Georgia, serif;
+        font-size: 66px;
+        letter-spacing: -2px;
+        font-weight: 400;
+        fill: url(#nameGradient);
+    }
+
+    .body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        fill: #8b9aaa;
+    }
+
+    .mono {
+        font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .intro,
+        .portrait-row,
+        .status {
+            animation: none !important;
+            opacity: 1 !important;
+            transform: none !important;
+        }
+    }
+
+</style>
+
+<defs>
+
+    <linearGradient
+        id="background"
+        x1="0"
+        y1="0"
+        x2="1"
+        y2="1"
+    >
+        <stop offset="0%" stop-color="#0d1117"/>
+        <stop offset="100%" stop-color="#111923"/>
+    </linearGradient>
+
+    <linearGradient
+        id="nameGradient"
+        x1="0"
+        y1="0"
+        x2="1"
+        y2="0"
+    >
+        <stop offset="0%" stop-color="#e6edf3"/>
+        <stop offset="50%" stop-color="#58a6ff"/>
+        <stop offset="100%" stop-color="#e6edf3"/>
+
+        <animate
+            attributeName="x1"
+            values="0;1;0"
+            dur="6s"
+            repeatCount="indefinite"
+        />
+    </linearGradient>
+
+    <radialGradient id="glow">
+        <stop
+            offset="0%"
+            stop-color="#58a6ff"
+            stop-opacity=".17"
+        />
+        <stop
+            offset="100%"
+            stop-color="#58a6ff"
+            stop-opacity="0"
+        />
+    </radialGradient>
+
+</defs>
+
+
+<!-- BACKGROUND -->
+
+<rect
+    width="880"
+    height="360"
+    rx="15"
+    fill="url(#background)"
+    stroke="#263342"
+    stroke-width="1"
+/>
+
+<circle
+    cx="720"
+    cy="165"
+    r="190"
+    fill="url(#glow)"
+/>
+
+
+<!-- LEFT INTRODUCTION -->
+
+<g class="intro" style="animation-delay:.1s">
+
+    <circle
+        class="status"
+        cx="51"
+        cy="47"
+        r="5"
+        fill="#3fb950"
+    />
+
+    <text
+        x="66"
+        y="51"
+        class="mono"
+        fill="#8b9aaa"
+    >BUILDING / LEARNING / EXPERIMENTING</text>
+
+</g>
+
+
+<!-- NAME -->
+
+<g class="intro" style="animation-delay:.25s">
+
+    <text
+        x="46"
+        y="139"
+        class="name"
+    >Sarthak</text>
+
+    <text
+        x="48"
+        y="178"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="16"
+        font-weight="600"
+        fill="#e6edf3"
+    >Dongare</text>
+
+</g>
+
+
+<!-- ROLE -->
+
+<g class="intro" style="animation-delay:.4s">
+
+    <text
+        x="49"
+        y="215"
+        class="mono"
+        fill="#58a6ff"
+    >AI &amp; DATA SCIENCE ENGINEER</text>
+
+</g>
+
+
+<!-- INTRODUCTION TEXT -->
+
+<g class="intro" style="animation-delay:.55s">
+
+    <text
+        x="49"
+        y="252"
+        class="body"
+    >I build intelligent systems,</text>
+
+    <text
+        x="49"
+        y="277"
+        class="body"
+    >data-driven applications and</text>
+
+    <text
+        x="49"
+        y="302"
+        class="body"
+    >useful software experiences.</text>
+
+</g>
+
+
+<!-- INTERESTS -->
+
+<g class="intro" style="animation-delay:.75s">
+
+    <text
+        x="49"
+        y="329"
+        class="mono"
+        font-size="9"
+        fill="#58a6ff"
+    >AI / ML   ·   DATA   ·   FULLSTACK</text>
+
+</g>
+
+
+<!-- DIVIDER -->
+
+<line
+    x1="510"
+    y1="35"
+    x2="510"
+    y2="325"
+    stroke="#263342"
+    stroke-width="1"
+/>
+
+
+<!-- RIGHT ASCII PORTRAIT -->
+
+
+    <g transform="translate(568.02 38.00) scale(0.3083)">
+        <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
+            
+            <text
+                class="portrait-row"
+                x="420"
+                y="21"
+                font-size="12"
+                fill="#58a6ff"
+                style="animation-delay:0.500s"
+                xml:space="preserve"
+            >./sarthak/portrait.sh</text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="63.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:0.525s"
+                xml:space="preserve"
+            >                                                                                            ...                                                                                     </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="72.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:0.550s"
+                xml:space="preserve"
+            >                                                                                      `=*s#%@@@%#s*=:.                                                                              </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="80.5"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:0.575s"
+                xml:space="preserve"
+            >                                                                                   .=ss*=-:::-=*s%@@@%c-.                                                                           </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="88.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:0.600s"
+                xml:space="preserve"
+            >                                                                   .-.     .``:--+*#s-``-=*ccssccs#@@@@@%+.          ..                                                             </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="97.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:0.625s"
+                xml:space="preserve"
+            >                                                                .:*%+  .-*s%@@@@@@@#+c%@@@@@@@@@@@@@@@@@@@#cccc**+-:-=+cs*=:.                                                       </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="105.5"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:0.650s"
+                xml:space="preserve"
+            >                                                              .=#@@%.-c%@@@%%@@@@@%%%%####%@@@@@@@%%%%@@@@@@@@@@@@@@%scc#@@@%s+:  `:.   .                                           </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="113.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:0.675s"
+                xml:space="preserve"
+            >                                                             :#@@#@%#@@@%%%@@@@@@%%%#sss#%@@@%@@@@@%##%%@@@%@@@@@@%%%@@@%@@@@@@@#=.`cc` :=.                                         </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="122.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:0.700s"
+                xml:space="preserve"
+            >                                                       `-=+*+%@%##@@@@@@@@@@@@@@@@@%#ss#%@@@@%%%@@@@@%%@@@@##%%@@@@@#s#%@@@@@@@@@@#- s@* :#:                                        </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="130.5"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:0.725s"
+                xml:space="preserve"
+            >                                                    `*%@@@@@@@#s#%%@@@@@@@@@@@@@@@%#ss%@@@@@@%#%#%@@@@@@@@@@#ss#@@@@@%%%%@@@@@@%%%@@*`%@s =@`                                       </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="138.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:0.750s"
+                xml:space="preserve"
+            >                                                  .*@@###%@@@@sss#@%%@@@@@@@@@@%%%##%%@@@@@@%@##%#%%%#%@@@@@@scs#%%%@@@%%@@@@@@@%%%%@s#@@c.@*                                       </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="147.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:0.775s"
+                xml:space="preserve"
+            >                                              .:=+%@@#s%%@@@@@###s#%%%%####%%%%##%@@@@@@@@@@%#%ss###%###%@@@@@sc#%###%@@@@@@@@@@@@@@@@@@@@-@#`.                                     </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="155.5"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:0.800s"
+                xml:space="preserve"
+            >                                           `=c@@@%c*%%@@@@@@@@%s#%###%%%%%%%%%@%@@@@@@@@@@@@@%#ss#%%%@@%%%@@@@@#c#@%###%@@%@@@@@@@@@@@@@@@#@c-+cc=.                                 </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="163.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:0.825s"
+                xml:space="preserve"
+            >                                         `*%@@c-:=+#@%%%%@@@@@@%#%@@@%%@@@@@@@%s%@%@@@@@@@@@@@@%#s#@%#@@@@@@@@@@#s%@@####@%%@@@@@@@@@@@@@@@@*`  -s@+.                               </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="172.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:0.850s"
+                xml:space="preserve"
+            >                                        +@@@s::+#@@%#ss#%%@@@@@@@%%%@@@@@@@@@@%s%@##@@@@@@@@@@@@@#s#%@%@@@@@@@@@@%#%@@%###%%#%@@@@@@@@@@@@@@@@#-  =@s`                              </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="180.5"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:0.875s"
+                xml:space="preserve"
+            >                                      .s@@@c:*@@@%###ss##%%@@@@@@@@%%@@@@@@@@%%s#%##%@@@@@@@@@@@@@%#%%@@@@@@@@@@@@@%%@@%%%#%%%##%@@@@%%%@@@@@@@@s. *@#.                             </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="188.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:0.900s"
+                xml:space="preserve"
+            >                                   .  s@%@s+%@@@%%@@@@@@@@@@@@@@@@@@@@@@@@@@@####@@@%%@@%%@@@@@@@@@@@%%%@@@@@@@@@@@@@@@@@@%%@@@%#%%@@%%%%%@@@@@@@#.`@@*                             </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="197.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:0.925s"
+                xml:space="preserve"
+            >                                  :+ +@@@@s@@@@%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@%s%%%@@@@@@@%#%%@@@@@@@@@@%#%%@@@%%@@@@@@@@@@@@@@@@@%%@@@%%@@%@@@@@@@+.%@@`                            </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="205.5"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:0.950s"
+                xml:space="preserve"
+            >                                  #+ @@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@#s@@@@@@@@@@%%#%%@@@@@@@@@@%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@@@s-@@@- ..                         </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="213.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:0.975s"
+                xml:space="preserve"
+            >                                 `@#=@@@@@%@@@@%###%%%%%%@@@@@@@@@@@@@@@@@@@@@@##@@@@@@@@@@@@%%#%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#s@@@- **                         </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="222.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.000s"
+                xml:space="preserve"
+            >                                 `@@@@@@@@@@@@###ssss###%@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%..%s                         </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="230.5"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.025s"
+                xml:space="preserve"
+            >                                  *@@@@@@@@@@%%@%#%%%#####%@@@@@@@@%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@=.s@=                         </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="238.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.050s"
+                xml:space="preserve"
+            >                                 .=@@@@@@@@@@@@@@@@%#sss#%%@@@@@@@@@##@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@%@@@@@@@@@@%%@@@@@@@@@@@@@@@@#+%@%.                         </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="247.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.075s"
+                xml:space="preserve"
+            >                               :*%@%%@@@@@@@@@@@@%%%%%#ss%%%@@@@@@@@@%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@%#scc##s***cs%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:                          </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="255.5"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.100s"
+                xml:space="preserve"
+            >                             `c@@###%%@@%@@@@@@@@%##%%@@%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%@%%%#ss#%%#c*==--=-::``::-=+c#%@@@@@@@@@@@@@@@@@@@%%@@#:                           </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="263.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.125s"
+                xml:space="preserve"
+            >                            -%@%###%##%%%@@@@@@@@@##%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#sc*+=+++**++csc+=-:`.............`:-=*s%@@@@@@@@@@@@@%%%%%@@+.`c                          </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="272.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.150s"
+                xml:space="preserve"
+            >                           =@@%%@@@#ss%@@%##s%@@@@%ss%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#sc*=::-===+++++=:`...        .........`:-=c%@@@@@@@@@@@@%%%@%c:`*@+                          </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="280.5"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.175s"
+                xml:space="preserve"
+            >                          :@@@@@@%sccs%@%#sss#%%@@@@##%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@s*++=-==+***+=-:`...           .... ......`--=+s@@@@@@@@@@@@@@@sc#@@c                           </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="288.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.200s"
+                xml:space="preserve"
+            >                          s@@@@@%#ss#@@%%#ssss#%@@@@@@%%@@@@@@@@@@@@@@@@@@@@@@@@@%@s=--:...... .....    .   ..        .........:---=s@@@@@@@@@@@@%%@@@%*:.                          </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="297.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.225s"
+                xml:space="preserve"
+            >                         `@%@@@%@@#%@@@@%###%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ss#-::`.....  ...................   ............`---=#@@@@@@@@@@@@@@@@c=:                           </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="305.5"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.250s"
+                xml:space="preserve"
+            >                         :#c@@@@@@@@@@@@@@@@%###%@@@@@@@@@@@@@@@@@@@@@@@@@@@##s**s=:`............           ...   ...         ....:::+@@@@@@@@@@@@@@@%c:                            </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="313.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.275s"
+                xml:space="preserve"
+            >                         .+@@@@@@@@@@@@@@@@%###%@@@%%@@@@@@@@@@@@@@@@@@@@@%s*++**:`....                        .                  ..:-*@@@@@@@@@@@@@@@c:.                           </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="322.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.300s"
+                xml:space="preserve"
+            >                          c@@@@@@@@@@@@@@@@@@%%%@@@%%@@@@@@@@%@@@@@@@@@@@%sc*+-`....   ...``.                                 .`:=+*ss*s@@@@@@@@@@@@@%*=`                           </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="330.5"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.325s"
+                xml:space="preserve"
+            >                         -@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@%#*-`. ...  `+cc#####sscs*+=++=-:` ..           ...-=c%%%@@@@@@@@@@@@@@@@@@@%=.                             </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="338.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.350s"
+                xml:space="preserve"
+            >                         +@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@s-.....  -c@@@@@@@@@@@@@@@@@@@@@@s=*+`    ....`c#*@@@@@@@@@@@@@@@@@@@@@@@@@s`                              </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="347.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.375s"
+                xml:space="preserve"
+            >                         =@c@@%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%-. ..  :c@@@@@%%@%@@@@@@@@@@@@@@@@##@%+` .``:+#%@@@@@@@@@%#c*=+c%@@@@@@@@@@#                               </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="355.5"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.400s"
+                xml:space="preserve"
+            >                         -+-@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#:  .. `s@@#c+--```::--+cs%@@@@@@@@@@@@@@+:-*+*%@@@@@@@%#c=-`.....-#@@@@@@@@@c                               </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="363.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.425s"
+                xml:space="preserve"
+            >                           -@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@c` ... =@@*=`.         ..`:=+*css##%%%%%%%+=+*+*%@%%#scc+=-::````...:@@@@@@@#c.                               </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="372.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.450s"
+                xml:space="preserve"
+            >                           .#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%+. .. .*@*:.. .....:-=====+**c*******c**+*=::==-=*ssc*cssc**+***c*-:``%@@@@@@:                                 </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="380.5"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.475s"
+                xml:space="preserve"
+            >                            -@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*`   . .cs-...`..`-*c*+++**cs%%@@@%s****+=-:...:-`-s#cs##c+++*css#@@%*-:%@@@@@=                                  </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="388.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.500s"
+                xml:space="preserve"
+            >                            +@@@@@%@@@@%%@@@@@@@@@@@@@@@@@@@@@@@@@=.      :=..````-*ss+=+ccc*=+##@@@@@@sccs*=-.      *@%##scc*+-=sc@@@@@%+-%@@@#`                                   </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="397.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.525s"
+                xml:space="preserve"
+            >                            *@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+       .`.``:--=csccss*-`   -sc@@@%@%c++++::`.     =@*css=`   .##@@@@@@s-#@@@*                                    </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="405.5"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.550s"
+                xml:space="preserve"
+            >                            `c@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@`       ..```:-+c#%@@%=..    .c@@@@+c##-:--```.     .+s#*+:`.   =#%%s%@c-.*@@@:                                    </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="413.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.575s"
+                xml:space="preserve"
+            >                             .#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*          .``:===++===+++=+=--:==++**+==-:```...     .cc+====---:::---=-`.:@@@=                                    </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="422.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.600s"
+                xml:space="preserve"
+            >                              `#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-   .        .``````::`.....`:-==*ccc+=-:.........     `=-:-+*cccc**+++=:`..c@c                                     </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="430.5"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.625s"
+                xml:space="preserve"
+            >                               s@@@@@@@@@@@%c**s@@@@@@@@@@@%%@@@:   .           ..``:--=+++*****c+=:`..  ..   .....     `-:..``:-=+++=-`... :@c                                     </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="438.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.650s"
+                xml:space="preserve"
+            >                               -@@@@@@@@@@+  ...`=c%@@@@@@@@@@@#`                    ...``:::```...      ..  ...         .--                 *@-                                    </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="447.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.675s"
+                xml:space="preserve"
+            >                                :s@@@@@@@* -s%%c=` `=*#@@@@@@@@c.                      .........          ```....          :=`               .%#.                                   </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="455.5"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.700s"
+                xml:space="preserve"
+            >                                 -@@@@@@@``#%c::+@c` .`=s@@@@@@s.   .                                    :-`.....         .`:-=.              +@=                                   </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="463.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.725s"
+                xml:space="preserve"
+            >                                 .s@@@@@s -+*-  .*#*:.```-%@@@@#.   ..                               ...-=.        ...  ..``  -c.             `@#                                   </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="472.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.750s"
+                xml:space="preserve"
+            >                                  `%@@@@+ :-=.    .-#+`:. -@@@@c.  ...                              .```#-    `-=**=:.```-*c=`-#`.            .c@`                                  </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="480.5"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.775s"
+                xml:space="preserve"
+            >                                  :@@@@@+ `-:   .=#@@@*... *@%@#.  ...                            .`:`..+s+==c##sss%s:-=+%@@@c*:.::.           *@-                                  </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="488.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.800s"
+                xml:space="preserve"
+            >                                  .%@@@@* `:.  `+sscs%:    -@@@%.  ....                         ..:-`    `=c%@##sccc*+*s#%%@%c-..`-:`.       . *@=                                  </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="497.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.825s"
+                xml:space="preserve"
+            >                                   `c@%@s .`  .=*=--*c  .  .#%*=........                       .`::.   `++*#%%@@@@@@%*c@@@@@@@@s+=---``........*@-                                  </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="505.5"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.850s"
+                xml:space="preserve"
+            >                                    `@@@@: .  .*c::::s*. .  .`  .........                    ..:--==**c#%@@@@@@@@@@@@%#@@@@@@@@@@@@##s=``....`.*@:                                  </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="513.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.875s"
+                xml:space="preserve"
+            >                                     :s@@c  .  `+*=-+s%%.    .............                 ..`=s%%@@@@@%#@@@@@@%#sc***+**+s%%%@@@@@@@@@*:`````.s@`                                  </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="522.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.900s"
+                xml:space="preserve"
+            >                                      -@%@= .``..`  .=cc` . ..............                .``*@@@@@@@@@@sc==-==--::::```::-==+**s@@@@@@@=``````#@.                                  </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="530.5"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.925s"
+                xml:space="preserve"
+            >                                      .#@@@- .-=-.       .  ..............              . ..:%@@@@@@%#c=:-=++++++++++++cccccccc*c%@@@@@%:...``:@#                                   </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="538.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.950s"
+                xml:space="preserve"
+            >                                       `c%@@=  .         .................                  :@@@@@@@@scs%%sc*+==----==+=--::-=*%@%@%%@%- ..``.-@*                                   </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="547.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:1.975s"
+                xml:space="preserve"
+            >                                         :s@@*.          -*.................                .+@@@%%s**c+=:```.              .``--:---=:  ..``.*@-                                   </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="555.5"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.000s"
+                xml:space="preserve"
+            >                                          .@@@%=.      .:#@:..`...............               `+--::..   ..............`.``````......``.  ..```%%.                                   </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="563.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.025s"
+                xml:space="preserve"
+            >                                           -%@@@%c+---+s%s%c...````.......  ....   ..          ..     . ........``-+c#ss#s+---:`....`:`..````=@*                                    </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="572.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.050s"
+                xml:space="preserve"
+            >                                            .+@%@@@@@@@#==*#:..````........  ....  ...        .``.         ..`:--=+****c++*+-:`.....`-:``````#@`                                    </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="580.5"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.075s"
+                xml:space="preserve"
+            >                                              :@@@@@@@@#:-=+-`..```.......................  ...``.            ...``:----::``.......``:``````*@+                                     </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="588.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.100s"
+                xml:space="preserve"
+            >                                               *@@@@@@@@=.::`::.``````...`.....................``.....            ..````..  .....```:::`::`-@s                                      </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="597.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.125s"
+                xml:space="preserve"
+            >                                                -c@@@@@@#.  .:-````````````...................`...........  .                ....```:-::::-#%`                                      </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="605.5"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.150s"
+                xml:space="preserve"
+            >                                                  c@@@@@@- . .:-::```````````.```...........``.````.....                    .....``:-=--:-#@:                                       </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="613.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.175s"
+                xml:space="preserve"
+            >                                                   =#@@@@c   ..:::-:```````````````..`........```......  ...                ....``::-=--=%@-                                        </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="622.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.200s"
+                xml:space="preserve"
+            >                                                    .%@@@@`    .:::-=:```::::``:```````````````:````...........      .``.....````::-==-+@%:                                         </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="630.5"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.225s"
+                xml:space="preserve"
+            >                                                     =@@%@*     .:::-===-::::::::::::::::::`:::::::```````..........````````--::---==+s@c.                                          </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="638.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.250s"
+                xml:space="preserve"
+            >                                                      `s@@%.     .::::-=+**=---::-::-::::::::::::---:::```````````:::::-----=---===+s%%=                                            </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="647.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.275s"
+                xml:space="preserve"
+            >                                                       .c@@=      .`:::`:-+*c***+===------------:--==----:::::---=====+*++++++**+c%@s@s                                             </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="655.5"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.300s"
+                xml:space="preserve"
+            >                                                         -@#       .`::::``:-+****ccc***+++====----==+++++=+*+***c***cccc*cccccc#@s:.%%.                                            </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="663.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.325s"
+                xml:space="preserve"
+            >                                                          s@:        .::::::`::-+++++***ccccc*ccccc****ccccccccccccccccccsss##%@#+.  c@:                                            </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="672.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.350s"
+                xml:space="preserve"
+            >                                                          -@*         .```:::::::-=+++++++++++**ccsss####%%%%%%%%%%%%%@@%%%%%##*:... =@=                                            </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="680.5"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.375s"
+                xml:space="preserve"
+            >                                                          .%%. .       .````::::``::=+++++=++++++++++++****cccccccccccccccsc*+-:.. . :@*                                            </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="688.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.400s"
+                xml:space="preserve"
+            >                                                           +@= .         .``````:````:-=++++===++++++++++++++++********css*=--`...   `@#                                            </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="697.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.425s"
+                xml:space="preserve"
+            >                                                           `@#. ..       ..``````````````:-=++++=+++++++***********cccc*+=--:`...  . `@s                                            </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="705.5"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.450s"
+                xml:space="preserve"
+            >                                                            =@c. ..       ...```````````````:-=+++++++++++++++****c**+=----:`...  .  s@:                                            </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="713.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.475s"
+                xml:space="preserve"
+            >                                                             =@#: ..         ..````````````````::-=+++++**+******+==-::---`.... .. .s@=                                             </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="722.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.500s"
+                xml:space="preserve"
+            >                                                              `s@+. ..          .```..```````````:::--=========---:::---:`... ..  :%%-                                              </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="730.5"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.525s"
+                xml:space="preserve"
+            >                                                                =@%-              ...``..````````::::-----::::::::::--:`...  .  .*@c.                                               </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="738.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.550s"
+                xml:space="preserve"
+            >                                                                 `*@#-.  .          ...```..```````````::-----:::::-:`.......  =@%-                                                 </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="747.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.575s"
+                xml:space="preserve"
+            >                                                                   `c@#-.  ..         ....```````````````:::::::-::`.......  :#@*.                                                  </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="755.5"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.600s"
+                xml:space="preserve"
+            >                                                                     `*@%+`   .       ......`````````````````:::``.......  :s@c`                                                    </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="763.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.625s"
+                xml:space="preserve"
+            >                                                                       .+%@c:.   ..  .. ......``````````````````......   :s@s:                                                      </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="772.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.650s"
+                xml:space="preserve"
+            >                                                                          -c@%*:    ...   ..```````````````````..     .-#@c:                                                        </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="780.5"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.675s"
+                xml:space="preserve"
+            >                                                                            .=s@%*:.    ...  .````````````````.     `+%@*`                                                          </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="788.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.700s"
+                xml:space="preserve"
+            >                                                                               .=s@%c=`.    ..````````````::`    `=s@#=.                                                            </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="797.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.725s"
+                xml:space="preserve"
+            >                                                                                  .-*#@%c+:`.   .`````````.  .-*#@#+`                                                               </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="805.5"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.750s"
+                xml:space="preserve"
+            >                                                                                      .-*s%%#c*=--::::--=+*c#%%c=`                                                                  </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="813.83"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.775s"
+                xml:space="preserve"
+            >                                                                                          .`-+cs#%%%%%%%#sc+-`                                                                      </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="822.17"
+                font-size="7.17"
+                fill="#58a6ff"
+                style="animation-delay:2.800s"
+                xml:space="preserve"
+            >                                                                                                 ......                                                                             </text>
+            
+            <text
+                class="portrait-row"
+                x="20"
+                y="863"
+                font-size="13"
+                fill="#58a6ff"
+                style="animation-delay:2.825s"
+                xml:space="preserve"
+            >sarthak@github:~$ whoami Sarthak Dongare</text>
+            
+        </g>
+    </g>
+    
+
+
+<!-- PORTFOLIO LINK -->
+
+<g class="intro" style="animation-delay:.9s">
+
+    <a href="https://portfolio-website-kappa-one-98.vercel.app/" target="_blank">
+        <text
+            x="49"
+            y="348"
+            class="mono"
+            font-size="9"
+            fill="#58a6ff"
+            style="text-decoration: underline;"
+        >Sarthak&#x27;s Website</text>
+    </a>
+
+</g>
+
+</svg>

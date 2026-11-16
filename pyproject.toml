@@ -1,0 +1,26 @@
+[project]
+name = "git-readme"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Sarthak", email = "sarthakdongare8@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.12.0",
+    "numpy>=1.26.0",
+    "opencv-python-headless>=4.10.0",
+    "pillow>=12.0.0",
+    "rembg[cpu]>=2.0.60",
+    "requests>=2.32.0",
+]
+
+[project.scripts]
+git-readme = "git_readme:main"
+
+[build-system]
+requires = ["uv_build>=0.13.8,<0.14.0"]
+build-backend = "uv_build"
+
+
